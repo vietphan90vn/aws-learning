@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  simple-web-api:
+    #image: ${DOCKER_REGISTRY-}simplewebapi
+    image: vietphan90/simplewebapi
+    build:
+      context: .
+      dockerfile: Dockerfile
